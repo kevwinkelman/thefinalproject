@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1.5">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:text="hello"
+        android:layout_weight=".25"/>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:text="hello"
+        android:layout_weight=".25"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hours"
+        android:layout_weight=".25"/>
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:text="hello"
+        android:textSize="20dp"
+        android:layout_weight=".25"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Minutes"
+        android:layout_weight=".25"/>
+
+
+    <TextView
+        android:id="@+id/minutes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:text="hello"
+        android:layout_weight=".25"/>
+
+
+
+</LinearLayout>
